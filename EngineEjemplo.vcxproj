@@ -172,6 +172,7 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\FComponent.cpp" />
     <ClCompile Include="src\FObject.cpp" />
     <ClCompile Include="src\AssetManager.cpp" />
     <ClCompile Include="src\ConsoleLogger.cpp" />
@@ -192,6 +193,7 @@
     <ClCompile Include="src\World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\FComponent.h" />
     <ClInclude Include="src\FObject.h" />
     <ClInclude Include="src\AssetManager.h" />
     <ClInclude Include="src\ConsoleLogger.h" />

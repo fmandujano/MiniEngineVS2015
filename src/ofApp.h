@@ -7,6 +7,9 @@ class ofApp : public ofBaseApp
 {
 	public:
 
+		static int SizeX;
+		static int SizeY;
+
 		//manejador de escena
 		World * world;
 

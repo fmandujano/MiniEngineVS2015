@@ -21,7 +21,7 @@ void ofApp::setup()
 	//another_console.Create("Datos de gameplay");
 	//another_console.printf("Inicializando gameplay");
 
-	AssetManager::Instance()->initialize();
+	AssetManager::Instance( )->initialize();
 
 	//crear un nuevo mundo
 	world = new World();

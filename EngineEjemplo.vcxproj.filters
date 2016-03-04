@@ -49,6 +49,7 @@
     <ClCompile Include="src\AssetManager.cpp" />
     <ClCompile Include="src\World.cpp" />
     <ClCompile Include="src\FObject.cpp" />
+    <ClCompile Include="src\FComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -126,6 +127,7 @@
     <ClInclude Include="src\AssetManager.h" />
     <ClInclude Include="src\World.h" />
     <ClInclude Include="src\FObject.h" />
+    <ClInclude Include="src\FComponent.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />
