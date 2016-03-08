@@ -8,7 +8,7 @@ class FObject
 private:
 	uint64_t internalId;
 	std::string name;
-	std::list<FComponent> components;
+	std::list<FComponent*> components;
 
 public:
 	bool Active;
@@ -19,7 +19,7 @@ public:
 
 	void setup();
 	void Update(float deltaTime);
-	void Draw()float deltaTime;
+	//void Draw(float deltaTime);
 
 	void keyPressed(int key);
 	void keyReleased(int key);
