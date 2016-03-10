@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 class FObject;
 
 class FComponent
@@ -13,5 +14,6 @@ public:
 
 private:
 	FObject *owner;
+	std::string name;
 };
 

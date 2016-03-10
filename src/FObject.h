@@ -1,6 +1,7 @@
 #pragma once
 #include "FComponent.h"
 #include <string>
+#include <iostream>
 #include <list>
 
 class FObject
@@ -30,9 +31,17 @@ public:
 	std::string getName();
 
 	//components
-	void AddComponent(FComponent *comp);
+	
 	void RemoveComponent(FComponent *comp);
 
 	uint64_t generateHash(std::string str);
-};
 
+	//templates
+	template<class CompClass>
+	CompClass AddComponent(std::string name)
+	{
+		std::cout << "Agregando componente " << name << std::endl;
+		return nullptr;
+	}
+
+};

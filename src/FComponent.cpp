@@ -7,6 +7,8 @@ FComponent::FComponent(FObject *_owner)
 {
 	owner = _owner;
 	Enabled = true;
+
+	std::cout << "hola soy nu componnete" << std::endl;
 }
 
 

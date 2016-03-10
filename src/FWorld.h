@@ -1,17 +1,13 @@
 #pragma once
 
 #include "ofMain.h"
-#include "World.h"
 
-class ofApp : public ofBaseApp
+class FWorld : public ofBaseApp
 {
 	public:
 
 		static int SizeX;
 		static int SizeY;
-
-		//manejador de escena
-		World * world;
 
 		void setup();
 		void update();

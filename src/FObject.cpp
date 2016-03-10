@@ -10,10 +10,6 @@ FObject::~FObject()
 {
 }
 
-void FObject::AddComponent(FComponent *newComponent)
-{
-	//FComponent
-}
 
 void FObject::RemoveComponent(FComponent *newComponent)
 {
@@ -30,7 +26,7 @@ void FObject::Update(float deltaTime)
 	{
 		//iterar en la lisa de componentes
 		for (std::list<FComponent*>::iterator it = components.begin();
-			it != components.end;
+			it != components.end();
 			it++)
 		{
 			FComponent* comp = static_cast<FComponent*>(*it);
@@ -44,4 +40,9 @@ void FObject::keyPressed(int key)
 }
 void FObject::keyReleased(int key)
 {
+}
+
+uint64_t generateHash(std::string str)
+{
+	return 0;
 }

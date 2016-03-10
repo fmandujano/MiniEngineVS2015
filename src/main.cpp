@@ -1,5 +1,5 @@
 #include "ofMain.h"
-#include "ofApp.h"
+#include "FWorld.h"
 
 void ReadArguments(int argc, char** argv )
 {
@@ -20,5 +20,5 @@ int main(int argc, char** argv )
 	// this kicks off the running of my app
 	// can be OF_WINDOW or OF_FULLSCREEN
 	// pass in width and height too:
-	ofRunApp(new ofApp());
+	ofRunApp(new FWorld());
 }

@@ -1,11 +1,10 @@
-#include "ofApp.h"
+#include "FWorld.h"
 #include "ConsoleLogger.h"
 #include "AssetManager.h"
-#include "World.h"
 
 CConsoleLogger another_console;
 //--------------------------------------------------------------
-void ofApp::setup()
+void FWorld::setup()
 {
 	HANDLE hstdout = GetStdHandle(STD_OUTPUT_HANDLE);
 	//CONSOLE_SCREEN_BUFFER_INFO csbi;
@@ -23,76 +22,72 @@ void ofApp::setup()
 
 	AssetManager::Instance( )->initialize();
 
-	//crear un nuevo mundo
-	world = new World();
-
-
 }
 
 //--------------------------------------------------------------
-void ofApp::update()
+void FWorld::update()
 {
 	//another_console.printf("ciclo de update");
 }
 
 //--------------------------------------------------------------
-void ofApp::draw()
+void FWorld::draw()
 {
 	//puts("ciclo de draw");
 }
 
 //--------------------------------------------------------------
-void ofApp::keyPressed(int key){
+void FWorld::keyPressed(int key){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::keyReleased(int key){
+void FWorld::keyReleased(int key){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseMoved(int x, int y )
+void FWorld::mouseMoved(int x, int y )
 {
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseDragged(int x, int y, int button){
+void FWorld::mouseDragged(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mousePressed(int x, int y, int button){
+void FWorld::mousePressed(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseReleased(int x, int y, int button){
+void FWorld::mouseReleased(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseEntered(int x, int y){
+void FWorld::mouseEntered(int x, int y){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseExited(int x, int y){
+void FWorld::mouseExited(int x, int y){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::windowResized(int w, int h){
+void FWorld::windowResized(int w, int h){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::gotMessage(ofMessage msg){
+void FWorld::gotMessage(ofMessage msg){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
+void FWorld::dragEvent(ofDragInfo dragInfo){
 
 }

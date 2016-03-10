@@ -177,7 +177,7 @@
     <ClCompile Include="src\AssetManager.cpp" />
     <ClCompile Include="src\ConsoleLogger.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\ofApp.cpp" />
+    <ClCompile Include="src\FWorld.cpp" />
     <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp" />
     <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp" />
     <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp" />
@@ -190,14 +190,13 @@
     <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp" />
     <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp" />
     <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp" />
-    <ClCompile Include="src\World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\FComponent.h" />
     <ClInclude Include="src\FObject.h" />
     <ClInclude Include="src\AssetManager.h" />
     <ClInclude Include="src\ConsoleLogger.h" />
-    <ClInclude Include="src\ofApp.h" />
+    <ClInclude Include="src\FWorld.h" />
     <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h" />
     <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h" />
     <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h" />
@@ -214,7 +213,6 @@
     <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h" />
     <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.h" />
     <ClInclude Include="src\sqlite3.h" />
-    <ClInclude Include="src\World.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
